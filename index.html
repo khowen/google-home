@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="title">
+        <img src="./images/logo.png" alt="Google Home Logo">
+    </div>
+    <div id="device">
+        <img src="./images/device.png" alt="Google Home Device">
+    </div>
+    <div id="links">
+        <a id="media" href="#mediaModal" class="modal-trigger btn-floating btn-large waves-effect waves-light cyan lighten-1">
+          <i class="material-icons">play_arrow</i>
+        </a>
+
+        <!-- Media Modal -->
+          <div id="mediaModal" class="modal">
+            <div class="modal-content">
+              <h4>Music & Video</h4>
+              <a href="#!" class=" modal-action modal-close btn-floating waves-effect waves-light"><i class="material-icons deep-orange z-depth-5">clear</i></a>
+                <ul class="collapsible" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header active"><i class="material-icons">filter_drama</i>Builds on Google media successes.</div>
+                        <div class="collapsible-body"><p>Chromecast, Chromecast Music and Google Cast</p></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">radio</i>Music</div>
+                        <div class="collapsible-body"><p>Access songs, playlists, artists, albums, and podcasts from favorite music services by asking with your voice or sending music from an iOS or Android device via GoogleCast</p></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">airplay</i>GoogleCast</div>
+                        <div class="collapsible-body"><p>Unlike other home assistants, GoogleCast support allows you to control other speakers in your home including multi-room playback.</p></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">info_outline</i>Specs</div>
+                        <div class="collapsible-body"><p>Wifi speaker that streams music/video directly from the cloud for high quality playback.</p></div>
+                    </li>
+                </ul>
+            </div>
+          </div>
+
+
+        <a id="scheduler" href="#schedulerModal" class="modal-trigger btn-floating btn-large waves-effect waves-light cyan lighten-1">
+          <i class="material-icons">view_agenda</i>
+        </a>
+
+        <!-- Scheduler -->
+          <div id="schedulerModal" class="modal">
+            <div class="modal-content">
+              <h4>Manage everyday tasks</h4>
+              <a href="#!" class=" modal-action modal-close btn-floating waves-effect waves-light"><i class="material-icons deep-orange z-depth-5">clear</i></a>
+                <ul class="collapsible" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header active"><i class="material-icons">filter_drama</i>Lists & More</div>
+                        <div class="collapsible-body"><p>Set alarms, timers, make lists.</p></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">radio</i>Smart Home Devices</div>
+                        <div class="collapsible-body"><p>Supports most popular home networking systems including Nest devices to seamlessly connect smart home. (lights, thermo, switches, etc)</p></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">airplay</i>Taking Google Home beyond the home</div>
+                        <div class="collapsible-body"><p>In the future, will work with developers to do things like book cars, send flowers, order dinner all with just your voice.</p></div>
+                    </li>
+                </ul>
+            </div>
+          </div>
+
+        <a id="askGoogle" href="#askGoogleModal" class="modal-trigger btn-floating btn-large waves-effect waves-light cyan lighten-1">
+          <i class="material-icons">chat</i>
+        </a>
+
+        <!-- Ask Google -->
+          <div id="askGoogleModal" class="modal">
+            <div class="modal-content">
+              <h4>Google Assistant</h4>
+              <a href="#!" class=" modal-action modal-close btn-floating waves-effect waves-light"><i class="material-icons deep-orange z-depth-5">clear</i></a>
+                <ul class="collapsible" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header active"><i class="material-icons">filter_drama</i>Background</div>
+                        <div class="collapsible-body">
+                            <ul class="innerUl">
+                                <li>Evolving Google Now.</li>
+                                <li>An understanding of 1 Billion entities (People, Places, Things) and their real-world relationships.</li>
+                                <li>Voice Recognition includes training datasets with noisy backgrounds.</li>
+                                <li>Advanced Photo and video search.</li>
+                                <li>Translation - over 140 billion words/day in over 100 languages including real time visual translation.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">radio</i>Ambient UX</div>
+                        <div class="collapsible-body"><p>An experience in the context of a user's daily life across devices -- Mobile, Wearables, Car, & Home</p></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">airplay</i>Conversational Assistant</div>
+                        <div class="collapsible-body"><p>Building each user their own Google with an ongoing two-way dialogue.</p></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">airplay</i>Contextual Search</div>
+                        <div class="collapsible-body">
+                            <p>The ability to search like we speak. <br />Ex: "Who is Wolf Blitzer?" "Where is <em>he</em> from?"</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">airplay</i>Natural Language Processing</div>
+                        <div class="collapsible-body">
+                            <p>Draws on 17 years of innovation in organizing the world's information.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+          </div>
+
+
+        <!-- <a id="stats" href="#comparisonModal" class="modal-trigger btn-floating btn-large waves-effect waves-light cyan lighten-1">
+          <i class="material-icons">assessment</i>
+        </a>
+        <!-- Comparison -->
+          <!-- <div id="comparisonModal" class="modal">
+            <div class="modal-content">
+              <h4>Stats</h4>
+              <a href="#!" class=" modal-action modal-close btn-floating waves-effect waves-light"><i class="material-icons deep-orange z-depth-5">clear</i></a>
+              <table class="bordered striped">
+                  <thead>
+                    <tr>
+                        <th></th>
+                        <th data-field="google">Google Home</th>
+                        <th data-field="alexa">Amazon Echo</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    <tr>
+                        <td>Voice Control/Hands Free</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td>Streaming Music</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td>Video</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td>Sound Quality</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td>Multi Room Playback</td>
+                        <td>X</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Smart Home Compatible</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td>Scheduler</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td>Usable outside the home</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td>Personalization</td>
+                        <td>X</td>
+                        <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+          </div>
+            -->
+          <a id="sources" href="#sourcesModel" class="modal-trigger btn-floating btn-large waves-effect waves-light cyan lighten-1">
+            <i class="material-icons">info_outline</i>
+          </a>
+
+          <div id="sourcesModel" class="modal">
+            <div class="modal-content">
+              <h4>More Info</h4>
+              <a href="#!" class=" modal-action modal-close btn-floating waves-effect waves-light"><i class="material-icons deep-orange z-depth-5">clear</i></a>
+                <ul class="collapsible" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header active"><i class="material-icons">star</i>Google I/O</div>
+                        <div class="collapsible-body"><p><a href="https://www.youtube.com/watch?v=862r3XS2YB0">Google I/O Keynote</a></p></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header active"><i class="material-icons">star</i>Google Cast</div>
+                        <div class="collapsible-body"><p><a href="https://www.google.com/cast/">Google Cast</a></p></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header active"><i class="material-icons">star</i>Chromecast</div>
+                        <div class="collapsible-body"><p><a href="https://www.google.com/intl/en_us/chromecast/?utm_source=chromecast.com">Chromecast</a></p></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header active"><i class="material-icons">star</i>Google Blog</div>
+                        <div class="collapsible-body"><p><a href="https://googleblog.blogspot.com/2016/05/io-building-next-evolution-of-google.html">Google Blog</a></p></div>
+                    </li>
+                </ul>
+            </div>
+          </div>
+    </div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

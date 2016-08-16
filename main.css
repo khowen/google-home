@@ -1,0 +1,69 @@
+html {
+    background-color: #eeedef;
+    height: 100%;
+    background: #eeedef;
+    background-size: 50%;
+}
+
+body {
+    text-align: center;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#title, #links, #device {
+    margin: 1% auto;
+}
+
+#device img {
+    width: 60%;
+}
+
+#links {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#left, #right, #top, #bottom {
+    float: none;
+}
+
+/* Modals */
+.modal .modal-content {
+    padding: 0;
+    padding-bottom: 5%;
+    margin-top: 0;
+}
+
+.modal-content h4 {
+    background: #25c5db;
+    padding: 2em;
+    padding-left: 1em;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.modal {
+    text-align: left;
+}
+
+.modal .modal-close {
+    position: absolute;
+    right: 1em;
+    top: 10em;
+}
+
+ul.collapsible {
+    margin-top: 3em;
+}
+
+#sourcesModel a {
+    color: #ff5722;
+}
+
+.innerUl {
+    padding-left: 1em;
+}
